@@ -1,0 +1,112 @@
+#myCanvas {
+    position: absolute;
+    border: 1px solid grey;
+    /*border-radius: 10px;*/
+}
+
+#toolPanel {
+    width: 480px;
+    height: 120px;
+    position: absolute;
+    margin: 490px 0 0 0;
+    padding: 10px;
+}
+
+#toolPanel table{
+    margin: 10px 0;
+}
+
+#toolPanel table td {
+    width: 160px;
+    height: 60px;
+    border: 1px dimgrey solid;
+}
+
+#okBtn {
+    width: 80px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#noBtn {
+    width: 80px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#backBtn {
+    width: 80px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#infos>td:nth-of-type(1)>label:nth-Child(2) {
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    border: solid 2px silver;
+    line-height: 60px;
+    border-radius: 15px;
+}
+
+#infos>td:nth-of-type(2)>label:nth-Child(2) {
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    border: solid 2px silver;
+    line-height: 60px;
+    border-radius: 15px;
+}
+
+#infos>td:nth-of-type(3)>label:nth-Child(2) {
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    border: solid 2px silver;
+    line-height: 60px;
+    border-radius: 15px;
+}
+
+#msgPanel {
+    width: 400px;
+    height: 580px;
+    padding: 10px;
+    margin: 0 0 0 520px;
+}
+
+#msgBox {
+    width: 380px;
+    height: 430px;
+    padding: 10px;
+    border: solid 1px grey;
+    overflow-y: scroll;
+}
+
+#usrBox{
+    width: 380px;
+    height: 50px;
+    padding: 10px;
+    border:solid 1px grey;
+    overflow-y: scroll;
+}
+
+#inputBox {
+    width: 380px;
+    height: 60px;
+    padding: 5px;
+    line-height: 50px;
+    float: left;
+}
+
+#msgInput {
+    width: 310px;
+    height: 50px;
+}
+
+#sndBtn {
+    width: 50px;
+    height: 50px;
+}

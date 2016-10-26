@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5双人对战五子棋</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <canvas id="myCanvas" width="500px" height="500px">
+        您的浏览器不支持canvas标签。
+    </canvas>
+    <!--<div id="msgPanel">
+        <div id="usrBox">
+            <div id="usrList"></div>
+        </div>
+        <div id="msgBox"></div>
+        <div id="inputBox">
+            <textarea id="msgInput"></textarea>
+            <button id="sndBtn">send</button>
+            <button id="p2pBtn">p2pMsg</button>
+            <button id="logBtn">logMsg</button>
+            <input id="sendImage" type="file" value="image"/>
+        </div>
+    </div>-->
+    <div id="toolPanel">
+        <table>
+            <tr id="infos">
+                <td><label>ChessColor: </label><label></label></td>
+                <td><label>Sequence: </label><label></label></td>
+                <td><label>isMyTurn? </label><label></label></td>
+            </tr>
+            <tr>
+                <td><button id="okBtn">OK</button></td>
+                <td><button id="noBtn">Cancel</button></td>
+                <td><button id="backBtn">Back</button></td>
+            </tr>
+        </table>
+        
+
+    </div>
+    <script type="text/javascript" src="jquery-1.9.1.js"></script>
+    <!--<script src="../../socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="TtalkClient.js"></script>-->
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
